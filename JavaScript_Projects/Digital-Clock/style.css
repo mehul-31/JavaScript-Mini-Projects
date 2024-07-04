@@ -1,0 +1,61 @@
+/* Global styles */
+body {
+    background-color: #212121;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Centering the content */
+  .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Styling the navigation */
+  nav {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  nav a {
+    color: #ff9800;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Styling the banner */
+  #banner {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling the clock */
+  #clock {
+    font-size: 48px;
+    background-color: #ff9800;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Additional hover effect for the clock */
+  #clock:hover {
+    background-color: #e68900;
+    transition: background-color 0.3s;
+  }
+  
