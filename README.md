@@ -45,5 +45,5 @@ A digital clock that displays the current time and updates every second.
 To get started with these projects, clone the repository to your local machine:
 
 ```sh
-git clone https://github.com/yourusername/js-mini-projects.git
+git clone https://github.com/mehul-31/js-mini-projects.git
 cd js-mini-projects
